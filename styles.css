@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-color: #5F4B8B;
+    background-color: #282a36;
     margin: 0px;
 }
 
@@ -26,7 +26,7 @@ body {
 #search {
     width: 100%;
     height: 100vh;
-    background-color: #272727;
+    background-color: #282a36;
     display: none;
     position: absolute;
     box-sizing: border-box;
@@ -39,8 +39,8 @@ body {
     width: 90%;
     padding: .75em 1em;
     box-sizing: border-box;
-    background-color: #272727;
-    border: solid 0px #272727;
+    background-color: #282a36;
+    border: solid 0px #282a36;
     font-family: "Roboto Mono";
     font-size: 4rem;
     color: #f2f2f2;
@@ -99,7 +99,7 @@ body {
     margin: 0em .5em;
 }
 .bookmark-inner-container {
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     height: 80%;
     vertical-align: top;
 }
